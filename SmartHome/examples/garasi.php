@@ -152,7 +152,8 @@
                           // Assuming we have #shoutbox
                           $("#Garasi").load('../service/control_box/status_garasi.php');
                           $("#DGarasi").load('../service/control_box/status_garasi_denah.php');
-
+                          $("#Suhu").load('../service/control_box/status_show_suhu.php');
+                          $("#Humid").load('../service/control_box/status_show_humidity.php');
                         }
                         setInterval("reloadStatus()", 100);
                       </script>
